@@ -1,0 +1,272 @@
+body{
+    background-color: rgb(84, 119, 146);
+}
+.all-page{
+    background-color: rgb(236, 239, 202);
+    margin: 80px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(33, 52, 72);
+    margin: 0 0 0 0 ;
+    border-radius: 8px 8px 0 0 ;
+    color: rgb(236, 239, 202);
+    
+}
+
+li a{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:'Montserrat', sans-serif;
+}
+
+li a:hover {
+  background-color: rgb(84, 119, 146);
+  font-size: 1.1rem;
+}
+
+.my-img{
+    height: 350px;
+    margin-right: 120px;
+    border-radius: 60px;
+    border: 5px solid rgb(33, 52, 72);
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(rgb(33, 52, 72), rgb(84, 119, 146));
+}
+
+.title-about-me{
+    margin-left: 120px;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+
+.title-heading-about-me{
+    font-family: 'Public Pixel', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.title-paragraph-about-me{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span{
+    font-size: 30px;
+}
+.title-start{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.img-cou{
+    height: 50px;
+    margin: 20px 10px 20px 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0 50px 0 ;
+}
+
+.cou{
+    display: flex;
+    color: white;
+    background-color: rgb(33, 52, 72);
+    height: 100px;
+    width: 300px;
+    border-radius: 30px;
+    border: 3px solid black;
+    box-shadow: 8px 8px black;
+    
+}
+.text-cou{
+    margin-top: 30px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.cou:hover{
+    background-color: rgb(84, 119, 146);
+    box-shadow: 5px 5px black;
+}
+
+.my-projects{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+    
+}
+.pro{
+    border: 3px solid;
+    border-radius: 10px;
+    background-image: linear-gradient(white, rgb(84, 119, 146));
+    padding: 1em;
+    box-shadow: 8px 8px black;
+}
+.my-projects img{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.title-project{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+@media screen and (max-width: 1320px) {
+    .my-projects img{
+        height: 150px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .my-projects img{
+        height: 100px;
+        width: 150px;
+    }
+}
+.Contact-me{
+    height: 400px;
+    background-image: linear-gradient(rgb(236, 239, 202),rgb(84, 119, 146),rgb(33, 52, 72));;
+}
+
+.Contact-me h2{
+    font-size: 60px;
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    padding-top: 130px;
+    padding-left: 60px;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.Contact-me h3{
+    font-size: 20px;
+    padding-left: 65px;
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    color: white;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+footer{
+    background-color: rgb(33, 52, 72);
+    text-align: center;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    border-radius: 0 0 8px 8px;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0;
+    }
+    .all-page{
+        margin: 10px;
+    }
+    .nav-list{
+        flex-direction: column;
+        padding: 0;
+    }
+    li a{
+        font-size: 0.8rem;
+    }
+
+    .my-img{
+        height: 200px;
+        margin: 0;
+        align-items: center;
+    }
+    .about-me{
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .title-about-me{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .title-heading-about-me{
+        font-size: 30px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+    .title-paragraph-about-me{
+        font-size: 10px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .title-img{
+        text-align: center;
+    }
+
+    .title-start{
+        font-size: 20px;
+        
+    }
+
+    .courses{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .my-projects{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-projects img{
+        text-align: center;
+        height: 150px;
+        width: 250px;
+    }
+
+
+    .Contact-me h2{
+        font-size: 30px;
+        padding-left: 50px;
+        padding-top: 140px;
+    }
+
+    .Contact-me h3{
+        font-size: 15px;
+        padding-left: 55px;
+    }
+  }
